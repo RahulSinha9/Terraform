@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = "us-west-2"
-  profile = "jack.roper"
+  profile = "rahul.sinha"
 }
 
 resource "aws_instance" "example_server" {
@@ -19,6 +19,6 @@ resource "aws_instance" "example_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "JacksBlogExample"
+    Name = "DevOps"
   }
 }
